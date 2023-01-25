@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Sama Husseini</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="primary-header">
+      <div class="container">
+        <nav class="nav fs-nav">
+          <a href="index.html"
+            ><img class="logo" src="./images/logo.svg" alt=""
+          /></a>
+          <div class="nav-wrapper">
+            <ul class="nav-links" role="list">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="portfolio.html">Portfolio</a></li>
+              <li><a class="link-active" href="contact.html">Contact</a></li>
+            </ul>
+            <ul role="list" class="nav-social-icons">
+              <li>
+                <a
+                  href="https://github.com/SkyHUsseini/SkyHUsseini/blob/main/README.md"
+                  ><img class="social-icon" src="./images/github.svg" alt=""
+                /></a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/?next=%2F"
+                  ><img class="social-icon" src="./images/instagram.svg" alt=""
+                /></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.facebook.com/profile.php?id=100083499697879&mibextid=LQQJ4d"
+                  ><img class="social-icon" src="./images/facebook.svg" alt=""
+                /></a>
+              </li>
+            </ul>
+          </div>
+          <button class="burger-btn">
+            <img class="hamburger-icon" src="./images/hamburger.svg" alt="" />
+          </button>
+        </nav>
+      </div>
+    </header>
+    <section class="contact-section">
+      <div class="container">
+        <div class="even-col contact-me-text-wrapper">
+          <div class="contact-me-text-wrapper">
+            <h1 class="fs-primary-heading text-primary fw-bold">Contact.</h1>
+            <p class="fs-paragraph-lg text-lightGrey">
+              Get in touch with me via social media or email.
+            </p>
+            <ul role="list" class="social-disc fs-paragraph-lg">
+              <li class="instagram-colored-text">
+                <a href="https://www.instagram.com/?next=%2F"
+                  ><img
+                    class="contact__instagram"
+                    src="./images/ig-instagram-icon.png"
+                    alt=""
+                /></a>
+                Instagram
+              </li>
+              <li class="facebook-colored-text">
+                <a
+                  href="https://www.facebook.com/profile.php?id=100083499697879&mibextid=LQQJ4d"
+                  ><img
+                    class="contact__facebook"
+                    src="./images/facebook-round-color-icon.png"
+                    alt=""
+                /></a>
+                Facebook
+              </li>
+              <!-- <li class="github-colored-text">
+                <a
+                  href="https://github.com/SkyHUsseini/SkyHUsseini/blob/main/README.md"
+                  ><img src="./images/GitHub-Logo.wine.svg" alt=""
+                /></a>
+                GitHub
+              </li> -->
+            </ul>
+          </div>
+          <div class="profile-pic">
+            <img
+              class="profile-img profile-img__hidden-sm"
+              src="./images/profilepic.png"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <!-- https://formsubmit.co/el/kerezu instead of my email -->
+      <form
+        action="https://formsubmit.co/sama25khaled@gmail.com"
+        method="POST"
+        class="container send-form fs-paragraph text-lightGrey"
+      >
+        <div class="info">
+          <label
+            >Name <br />
+            <input required name="name" type="text"
+          /></label>
+          <label
+            >Email <br /><input required type="email" name="email"
+          /></label>
+        </div>
+        <div class="message">
+          <label
+            >Message <br /><input required type="text" name="textarea"
+          /></label>
+          <button type="submit" class="send-btn">Send</button>
+        </div>
+      </form>
+    </section>
+    <footer class="footer">
+      <div class="footer-nav">
+        <div class="right-side-footer">
+          <a href="index.html"
+            ><img class="logo" src="./images/logo.svg" alt=""
+          /></a>
+          <p class="copyright text-accent">&#169; Sama Husseini</p>
+        </div>
+        <div class="nav-wrapper-footer text-accent">
+          <ul class="nav-links-footer" role="list">
+            <li><a href="about.html">About</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+          <ul role="list" class="nav-social-icons-footer">
+            <li>
+              <a
+                href="https://github.com/SkyHUsseini/SkyHUsseini/blob/main/README.md"
+                ><img class="social-icon" src="./images/github.svg" alt=""
+              /></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/?next=%2F"
+                ><img class="social-icon" src="./images/instagram.svg" alt=""
+              /></a>
+            </li>
+            <li>
+              <a
+                href="https://www.facebook.com/profile.php?id=100083499697879&mibextid=LQQJ4d"
+                ><img class="social-icon" src="./images/facebook.svg" alt=""
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script
+      type="module"
+      src="https://kit.fontawesome.com/7947351a45.js"
+      crossorigin="anonymous"
+    ></script>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
